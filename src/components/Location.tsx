@@ -134,7 +134,7 @@ export default function CompanyLocations() {
                 <button
                   key={index}
                   onClick={() => setSelected(location)}
-                  className={`border-r border-b border-gray-300 px-4 py-5 text-[12px] font-semibold uppercase tracking-[1px] transition
+                  className={`border-r border-b border-gray-300 px-4 py-5 text-[6px] xl:text-[12px] font-semibold uppercase tracking-[1px] transition
                     ${
                       selected.city === location.city
                         ? "bg-[#ef6b36] text-white"

@@ -21,13 +21,13 @@ export default function Header() {
       <div className="bg-[#16131C] text-white">
         <div className="mx-auto flex xl:h-11 h-20 max-w-[1500px] items-center justify-between px-6">
           <div className="flex items-center gap-5 text-base  font-normal font-montserrat">
-            <Phone className="h-4 w-4 text-[#ff7a2f]" />
-            <span>(412) 228 0174 </span>
+            <Phone className="h-4 w-4 text-[#ff7a2f] ml-5 xl:ml-0" />
+            <span className="">(412) 228 0174 </span>
             {" , "}
             <span>(412) 414 2473</span>
           </div>
 
-          <div>
+          <div className="hidden xl:flex">
             <h1>Ceo/President : Arham Abdullah</h1>
           </div>
 
@@ -88,7 +88,7 @@ export default function Header() {
 </div>
 
           {/* Mobile Menu Button */}
-          <button className="lg:hidden">
+          {/* <button className="lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-7 w-7 text-black"
@@ -103,7 +103,10 @@ export default function Header() {
                 d="M4 6h16M4 12h16M4 18h16"
               />
             </svg>
-          </button>
+          </button> */}
+          <div>
+            <h1 className="text-[14px] text-black">Ceo/President : Arham Abdullah</h1>
+          </div>
         </div>
       </div>
     </header>
