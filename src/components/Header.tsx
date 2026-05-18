@@ -105,7 +105,7 @@ export default function Header() {
             </svg>
           </button> */}
           <div>
-            <h1 className="text-[14px] text-black">Ceo/President : Arham Abdullah</h1>
+            <h1 className="text-[14px] text-black xl:hidden flex">Ceo/President : Arham Abdullah</h1>
           </div>
         </div>
       </div>
