@@ -71,7 +71,7 @@ export default function Footer() {
         <img
           src="/ASprimeT.png"
           alt="Watermark"
-          className="w-[600px] max-w-none h-[600px]"
+          className="xl:w-[600px] md:w-[600px] w-[350px] max-w-none h-[600px]"
         />
       </div>
 
