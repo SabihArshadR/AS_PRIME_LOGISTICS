@@ -43,11 +43,14 @@ export default function Header() {
         <div className="mx-auto flex xl:h-11 h-20 max-w-[1500px] items-center justify-between px-6">
           <div className="flex items-center gap-5 text-base font-normal font-montserrat">
             <Phone className="h-4 w-4 text-[#ff7a2f] xl:ml-0" />
-            <div className="">
-              <span className="text-[10px] xl:text-base ">(412) 228 0174</span>{" "}
+            <div className="flex">
+              <span className="text-[10px] xl:text-base">(412) 228 0174</span>{" "}
               <span className="hidden">{" , "}</span>
               <br className="xl:hidden block" />
-              <span className="text-[10px] xl:text-base md:block xl:block hidden">(412) 414 2473</span>
+              <span className="text-[10px] xl:text-base md:block xl:block hidden ml-2">
+                {" "}
+                (412) 414 2473
+              </span>
             </div>
           </div>
 
