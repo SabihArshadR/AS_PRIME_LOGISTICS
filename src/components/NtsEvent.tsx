@@ -45,7 +45,7 @@ export function NTSEventsSection() {
         {/* Left – text */}
         <div className="flex-1 pt-4">
           <h2 className="text-[35px] font-normal font-fjalla-one tracking-wider uppercase text-[#27232d] mb-2">
-            NTS Events
+            AS Prime Logistics Events
           </h2>
           <p className="text-[18px] font-montserrat font-normal tracking-widest uppercase text-[#27232d] mb-6">
             Past, Present, and Future
@@ -57,7 +57,7 @@ export function NTSEventsSection() {
             in person.
           </p>
           <p className="text-[#27232d]/80 text-[16px] font-light leading-relaxed mb-4">
-            You can find NTS at promotional speaking events, equipment auctions,
+            You can find AS Prime Logistics at promotional speaking events, equipment auctions,
             and more.
           </p>
           <p className="text-[#27232d]/80 text-[16px] font-light leading-relaxed mb-8">

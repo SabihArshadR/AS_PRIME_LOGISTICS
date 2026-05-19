@@ -103,14 +103,14 @@ export default function Team() {
               MEET OUR TRANSPORTATION SPECIALISTS
             </h3>
             <p className="text-black text-sm font-montserrat font-medium mb-5">
-              At Nationwide Transport Services we are proud of our transport
+              At AS Prime Logistics we are proud of our transport
               specialist team. Each person is dedicated to their clients, making
               sure they have the best shipping experience possible. <br></br>{" "}
               <br></br> The transport team is a group of highly trained
               logistics agents and they’re ready to find the best shipping
               solution to meet your needs. Each team member puts the client
               first. We want you to have more than just a transport.<br></br>{" "}
-              <br></br> At NTS, our specialists are passionate about providing
+              <br></br> At AS Prime Logistics, our specialists are passionate about providing
               you with a quality customer service experience. Your dedicated
               transport specialist will be with you from dispatch to delivery.
               Look below to find out more about each team member!

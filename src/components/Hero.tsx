@@ -47,7 +47,7 @@ export default function Hero() {
               href="/about"
               className="mt-10 inline-flex items-center justify-center bg-[#D3622E] px-8 py-3 text-sm font-semibold font-montserrat uppercase tracking-[0.2em] text-white transition hover:bg-[#df5c2b]"
             >
-              More About NTS
+              More About AS Prime Logistics
             </Link>
           </div>
         </div>

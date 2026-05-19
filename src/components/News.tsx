@@ -29,7 +29,7 @@ export default function News() {
                 OUR LATEST
               </h1>
               <p className="mt-5 max-w-[620px] text-[16px] text-white/90 md:text-[16px]">
-                Find out all the latest and greatest news for NTS. Here you’ll
+                Find out all the latest and greatest news for AS Prime Logistics. Here you’ll
                 find any interviews, guest articles, and press releases. We’ll
                 also be sharing some fun stuff like birthday wishes, anything
                 notable for our transport specialists, and promotions. So make
@@ -128,8 +128,7 @@ export default function News() {
               Way We Look at Moving
             </h3>
             <p className="text-white text-sm font-montserrat font-medium italic mb-5">
-              FT. LAUDERDALE, Fla., July 15, 2019 — Nationwide Transport
-              Services (“NTS”), a full-service auto transport carrier announces
+              FT. LAUDERDALE, Fla., July 15, 2019 — AS Prime Logistics, a full-service auto transport carrier announces
               the launch of AutoTransport.com to meet the demands for personal
               vehicle transport nationwide. “Moving can be stressful and we want
               to make it as easy as possible,” said Jason Foltz, CEO of

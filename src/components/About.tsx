@@ -77,9 +77,9 @@ export default function About() {
               </p>
 
               <p className="mt-5 max-w-[620px] text-[16px] text-white/90 md:text-[16px]">
-                Learn more about Nationwide Transport Services by meeting the
-                founders Jason and Don Foltz. You’ll find what makes NTS who we
-                are, and the principles we live by.
+                Learn more about AS Prime Logistics by meeting the
+                founders Jason and Don Foltz. You’ll find what makes AS Prime
+                Logistics who we are, and the principles we live by.
               </p>
 
               {/* <Link

@@ -20,7 +20,7 @@ const services = [
   {
     title: "Container Shipping",
     description:
-      "Container shipping is essential to the economy, but it's also essential to your business. NTS Logistics offers custom and quality container moving services. We're here to provide the best container transport in the industry.",
+      "Container shipping is essential to the economy, but it's also essential to your business. AS Prime Logistics offers custom and quality container moving services. We're here to provide the best container transport in the industry.",
   },
   {
     title: "Flatbed Trucking",
