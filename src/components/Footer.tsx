@@ -74,7 +74,7 @@ export default function Footer() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-[1450px] px-6 py-5">
-        <div className="grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-1">
           {/* Company Info */}
           <div className="max-w-[290px] font-montserrat text-[12px]">
             <img
@@ -95,28 +95,28 @@ export default function Footer() {
               <p>Fort Lauderdale, FL 33309</p>
             </div>
 
-            <button className="mt-8 rounded bg-[#f36b35] px-7 py-3 tracking-[0.18em] text-white transition hover:bg-[#e45d28]">
+            <button className="mt-8 rounded bg-[#f36b35] px-7 py-3 tracking-[0.18em] text-white transition hover:bg-[#e45d28] mb-5">
               CONTACT US
             </button>
           </div>
 
           {/* Services */}
-          <FooterColumn title="SERVICES" items={services} />
+          {/* <FooterColumn title="SERVICES" items={services} /> */}
 
           {/* About + Brands */}
-          <div className="space-y-12">
+          {/* <div className="space-y-12">
             <FooterColumn title="ABOUT AS PRIME LOGISTICS" items={about} />
             <FooterColumn title="OUR BRANDS" items={brands} />
-          </div>
+          </div> */}
 
           {/* Locations + News */}
-          <div className="space-y-12">
+          {/* <div className="space-y-12">
             <FooterColumn title="OFFICE LOCATIONS" items={locations} />
             <FooterColumn title="NEWS" items={news} />
-          </div>
+          </div> */}
 
           {/* Social + Resources */}
-          <div className="space-y-12">
+          {/* <div className="space-y-12">
             <div>
               <div className="mb-5 text-[14px] font-bold tracking-[0.18em] text-white">
                 SOCIAL
@@ -147,7 +147,7 @@ export default function Footer() {
             </div>
 
             <FooterColumn title="RESOURCES" items={resources} />
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom */}
