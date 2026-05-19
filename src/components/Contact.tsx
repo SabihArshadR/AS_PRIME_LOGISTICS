@@ -45,7 +45,7 @@ export default function Contact() {
           Phone
         </h2>
 
-        <p className="mt-4 text-[18px] font-montserrat font-normal tracking-[5px] uppercase text-[#27232d] ">
+        <p className="mt-4 xl:text-[18px] md:text-[18px] text-[10px] font-montserrat font-normal tracking-[5px] uppercase text-[#27232d] ">
           (412) 228 0174 , (412) 414 2473
         </p>
       </div>
@@ -55,7 +55,7 @@ export default function Contact() {
           Email
         </h2>
 
-        <p className="mt-4 text-[18px] font-montserrat font-normal tracking-[5px] uppercase text-[#27232d] ">
+        <p className="mt-4 xl:text-[18px] md:text-[18px] text-[10px] font-montserrat font-normal tracking-[5px] uppercase text-[#27232d] ">
           info@asprimelogistics.com
         </p>
       </div>
