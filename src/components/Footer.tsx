@@ -69,9 +69,9 @@ export default function Footer() {
       {/* Background Watermark */}
       <div className="absolute inset-0 flex items-center justify-end opacity-[0.06]">
         <img
-          src="/headerlogo.png"
+          src="/ASprimeT.png"
           alt="Watermark"
-          className="w-[800px] max-w-none h-[600px]"
+          className="w-[600px] max-w-none h-[600px]"
         />
       </div>
 
@@ -80,9 +80,9 @@ export default function Footer() {
           {/* Company Info */}
           <div className="max-w-[290px] font-montserrat text-[12px]">
             <img
-              src="/headerlogo.png"
+              src="/ASprimeT.png"
               alt="Logo"
-              className="mb-8 w-[200px] h-[147px]"
+              className="mb-8 w-[200px]"
             />
 
             <div className="">

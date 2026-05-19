@@ -80,9 +80,10 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="shrink-0">
             <img
-              src="/headerlogo.png"
+              // src="/headerlogo.png"
+              src="/ASprimeT.png"
               alt="Logo"
-              className="h-[68px] w-[85px]"
+              className="h-[90px] w-[90px]"
             />
           </Link>
 
