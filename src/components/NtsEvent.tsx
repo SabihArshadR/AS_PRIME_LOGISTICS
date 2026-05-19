@@ -20,18 +20,16 @@ export function SkipTheGuessworkBanner() {
           {/* Chatbot icon */}
           <div className="mb-2 text-white text-xl">✦</div>
 
-          <h3
-            className="text-white text-[32px] font-montserrat font-bold tracking-wide mb-2"
-          >
+          <h3 className="text-white text-[32px] font-montserrat font-bold tracking-wide mb-2">
             Skip the Guesswork
           </h3>
           <p className="text-white text-sm font-montserrat font-medium italic mb-5 leading-snug">
             Let our virtual assistant deliver the exact information you need in
             seconds.
           </p>
-          <button className="bg-[#E45819] hover:bg-orange-600 transition-colors text-white text-sm font-montserrat font-bold tracking-widest uppercase px-6 py-2 rounded-sm">
+          {/* <button className="bg-[#E45819] hover:bg-orange-600 transition-colors text-white text-sm font-montserrat font-bold tracking-widest uppercase px-6 py-2 rounded-sm">
             Find Your Answers
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
@@ -46,9 +44,7 @@ export function NTSEventsSection() {
       <div className="max-w-5xl mx-auto flex flex-col lg:flex-row items-start gap-12">
         {/* Left – text */}
         <div className="flex-1 pt-4">
-          <h2
-            className="text-[35px] font-normal font-fjalla-one tracking-wider uppercase text-[#27232d] mb-2"
-          >
+          <h2 className="text-[35px] font-normal font-fjalla-one tracking-wider uppercase text-[#27232d] mb-2">
             NTS Events
           </h2>
           <p className="text-[18px] font-montserrat font-normal tracking-widest uppercase text-[#27232d] mb-6">
@@ -61,16 +57,16 @@ export function NTSEventsSection() {
             in person.
           </p>
           <p className="text-[#27232d]/80 text-[16px] font-light leading-relaxed mb-4">
-            You can find NTS at promotional speaking events, equipment
-            auctions, and more.
+            You can find NTS at promotional speaking events, equipment auctions,
+            and more.
           </p>
           <p className="text-[#27232d]/80 text-[16px] font-light leading-relaxed mb-8">
             Check out our full list of events here!
           </p>
 
-          <button className="bg-[#EC6334] hover:bg-orange-600 transition-colors text-white text-sm font-semibold font-montserrat tracking-widest uppercase px-8 py-3">
+          {/* <button className="bg-[#EC6334] hover:bg-orange-600 transition-colors text-white text-sm font-semibold font-montserrat tracking-widest uppercase px-8 py-3">
             NTS Events
-          </button>
+          </button> */}
         </div>
 
         {/* Right – featured event card */}
@@ -105,15 +101,18 @@ export function NTSEventsSection() {
               className="text-white text-sm font-extrabold tracking-widest uppercase leading-snug mb-4"
               style={{ fontFamily: "'Oswald', sans-serif" }}
             >
-              Featured Event: AS Prime Logistics 15-Year Anniversary
-              Event in Orlando, FL
+              Featured Event: AS Prime Logistics 15-Year Anniversary Event in
+              Orlando, FL
             </h3>
             <p className="text-gray-300 text-sm italic leading-relaxed mb-6">
-              AS Prime Logistics brought in everyone from all offices
-              to celebrate the 15-year milestone at Sapphire Falls, Orlando, and
-              a fully catered-for day at Universal Studios.
+              AS Prime Logistics brought in everyone from all offices to
+              celebrate the 15-year milestone at Sapphire Falls, Orlando, and a
+              fully catered-for day at Universal Studios.
             </p>
-            <button className="w-full bg-orange-500 hover:bg-orange-600 transition-colors text-white text-xs font-bold tracking-widest uppercase py-3 rounded-sm">
+            <button
+              className="w-full bg-orange-500 hover:bg-orange-600 transition-colors text-white text-xs font-bold tracking-widest uppercase py-3 rounded-sm"
+              onClick={() => window.open("https://www.youtube.com/", "_blank")}
+            >
               Read More About Our 15 Year Celebration!
             </button>
           </div>

@@ -95,7 +95,7 @@ export default function Team() {
           </div>
 
           {/* Right – dark panel */}
-          <div className="flex md:flex-1 md:flex-col items-center justify-center px-8 py-6 text-center hidden xl:block">
+          <div className="flex md:flex-1 md:flex-col items-center justify-center px-8 py-6 text-center hidden xl:block md:block">
             {/* Chatbot icon */}
             {/* <div className="mb-2 text-white text-xl">✦</div> */}
 

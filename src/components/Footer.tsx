@@ -1,8 +1,9 @@
-// app/components/Footer.tsx
+"use client"
 import Link from "next/link";
 import {
   Phone
 } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 const services = [
   "Agricultural Equipment Transport",
@@ -62,6 +63,7 @@ const resources = [
 const news = ["Press", "Events", "Upcoming Expositions", "Media Coverage", "Awards"];
 
 export default function Footer() {
+  const router = useRouter();
   return (
     <footer className="relative overflow-hidden bg-[#27232D] text-[#b8b6c6]">
       {/* Background Watermark */}
@@ -95,9 +97,9 @@ export default function Footer() {
               <p>Fort Lauderdale, FL 33309</p>
             </div>
 
-            <button className="mt-8 rounded bg-[#f36b35] px-7 py-3 tracking-[0.18em] text-white transition hover:bg-[#e45d28] mb-5">
+            <button className="mt-8 rounded bg-[#f36b35] px-7 py-3 tracking-[0.18em] text-white transition hover:bg-[#e45d28] mb-5" onClick={() => router.push("/contact")}>
               CONTACT US
-            </button>
+            </button> 
           </div>
 
           {/* Services */}

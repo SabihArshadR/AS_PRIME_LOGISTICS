@@ -104,7 +104,9 @@ export default function CompanyLocations() {
               returning business.
             </p>
 
-            <button className="mt-6 bg-[#ef6b36] text-white px-8 py-3 uppercase tracking-[1px] font-semibold font-montserrat text-sm hover:bg-[#d95c2d] transition">
+            <button className="mt-6 bg-[#ef6b36] text-white px-8 py-3 uppercase tracking-[1px] font-semibold font-montserrat text-sm hover:bg-[#d95c2d] transition"
+            onClick={() => window.open("https://www.inc.com/profile/nationwide-transport-services/", "_blank")}
+            >
               Learn More
             </button>
           </div>

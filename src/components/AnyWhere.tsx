@@ -58,7 +58,7 @@ export default function AnywhereInTheWorld() {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-wrap gap-5">
+          {/* <div className="flex flex-wrap gap-5">
             {buttons.map((btn, i) => (
               <button
                 key={i}
@@ -80,7 +80,7 @@ export default function AnywhereInTheWorld() {
                 ))}
               </button>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

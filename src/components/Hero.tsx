@@ -1,7 +1,9 @@
-// app/components/Hero.tsx
+"use client"
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function Hero() {
+  const router = useRouter();
   return (
     <section className="relative h-[720px] pl-12 w-full overflow-hidden">
       {/* Background Image */}
@@ -42,7 +44,7 @@ export default function Hero() {
             </p>
 
             <Link
-              href="#"
+              href="/about"
               className="mt-10 inline-flex items-center justify-center bg-[#D3622E] px-8 py-3 text-sm font-semibold font-montserrat uppercase tracking-[0.2em] text-white transition hover:bg-[#df5c2b]"
             >
               More About NTS

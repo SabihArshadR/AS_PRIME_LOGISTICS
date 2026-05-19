@@ -82,12 +82,12 @@ export default function About() {
                 are, and the principles we live by.
               </p>
 
-              <Link
+              {/* <Link
                 href="#"
                 className="mt-10 inline-flex items-center justify-center bg-[#D3622E] px-8 py-3 text-sm font-semibold font-montserrat uppercase tracking-[0.2em] text-white transition hover:bg-[#df5c2b]"
               >
                 More About NTS
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

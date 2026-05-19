@@ -56,15 +56,15 @@ export default function Header() {
           </div>
 
           <div className="hidden items-center gap-5 text-[12px] text-white/80 font-light md:flex">
-            <Link href="#" className="transition hover:text-[#ff7a2f]">
+            <Link href="#" className="transition ">
               Carriers
             </Link>
 
-            <Link href="#" className="transition hover:text-[#ff7a2f]">
+            <Link href="#" className="transition">
               Shippers
             </Link>
 
-            <Link href="#" className="transition hover:text-[#ff7a2f]">
+            <Link href="#" className="transition">
               Become a Customer
             </Link>
           </div>
@@ -107,14 +107,14 @@ export default function Header() {
           {/* CTA Buttons */}
           <div className="hidden items-center gap-4 xl:flex">
             <Link
-              href="/shipping-quote"
+              href="/services"
               className="rounded bg-[#EC6334] px-3 py-2 text-sm font-lato font-bold text-white transition hover:bg-[#ea6223]"
             >
               SHIPPING QUOTE
             </Link>
 
             <Link
-              href="tel:4122280174"
+              href="/contact"
               className="rounded bg-[#007A5A] px-3 py-2 text-sm font-lato font-bold text-white transition hover:bg-[#0b8777]"
             >
               (412) 228-0174
